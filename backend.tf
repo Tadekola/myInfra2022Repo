@@ -5,7 +5,7 @@ terraform {
   }
   backend "s3" {
     
-    bucket = "my-s3bucket-20220513002320204000000001"
+    bucket = "my-devtf-state-bucket"
     
     key = "main"
     
